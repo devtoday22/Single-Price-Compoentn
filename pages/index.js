@@ -15,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 <main>
+  <section>
   <div className={styles.container}>
     <div className={styles.textCard}>
     <h1 className={styles.headline}>Join our community</h1>
@@ -40,7 +41,6 @@ export default function Home() {
           <p>Full access for less than 1$ a day</p>
           </div>
          <button className={styles.button}>Sign Up</button>
-
         </div>
       </div>
       <div className={styles.rightCol}>
@@ -53,8 +53,8 @@ export default function Home() {
       </div>
     </div>
   </div>
-</main>
-     
+  </section>
+</main>  
     </>
   );
 }

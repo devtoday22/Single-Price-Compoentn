@@ -5,17 +5,12 @@
     background-color: white;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    
 }
 .textCard {
 
     display: flex;
     flex-direction: column;
     gap: 10px;
-  
-    
-
-
 }
 .headline {
 
@@ -45,33 +40,28 @@
     display: flex;
     flex-direction: row;
     height: 200px;
-
-    
 }
 
 .colloumns {
 
     display: flex;
     flex-direction: row;
-    flex: 1;
-    
+    flex: 1; 
 }
 
 .leftCol {
 
     background-color: hsl(179, 62%, 43%);
-  
 }
 .rightCol {
 
     background-color: hsl(179, 62%, 55%);
- 
+
 }
 .leftCol,
 .rightCol {
   flex: 1; 
   padding: 10px; 
-  
 }
 
 .subsciptionPrice {
@@ -86,19 +76,15 @@
 .subsciptionPrice div {
 
     display: flex;
-    flex-direction: row;
-  
-    
+    flex-direction: row; 
 }
 .priceText {
 
     color: white;
     font-size: 28px;
- 
 }
 
 .priceDes {
-
 
     padding-top: 5%;
     padding-left: 2%;
@@ -107,7 +93,6 @@
 }
 
 .month {
-
     color: rgb(218, 217, 217);
     padding-top: 4px;
 }
@@ -129,11 +114,10 @@
     padding-bottom: 10px;
     border: none;
     display: block;
-    margin-top: 3%;
+    margin-top: 6%;
     margin-right: auto;
     margin-left: auto;
     border-radius: 6px;;
-   
 }
 
 .button:hover {
@@ -146,7 +130,7 @@
 
    display: flex;
    flex-direction: column;
-   gap: 14px;
+   gap: 6px;
 }
 .rightCol h1 {
 
@@ -160,8 +144,6 @@
     display: flex;
     flex-direction: column;
     color: hsl(180, 39%, 94%);
-   
-    
 }
 
 
