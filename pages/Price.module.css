@@ -1,0 +1,184 @@
+.container {
+
+    max-width: 34%;
+    margin: 10% auto;
+    background-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    
+}
+.textCard {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+    
+
+
+}
+.headline {
+
+    font-size: 20px;
+    color: hsl(179, 62%, 43%);
+    padding-top: 12px;
+    padding-left: 12px;
+}
+.subHeadline {
+
+    font-size: 18px;
+    color: hsl(71, 73%, 54%);
+    padding-left: 12px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: hsl(200, 4%, 71%);
+    font-weight: 700;
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+.flexContainer {
+
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+
+    
+}
+
+.colloumns {
+
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    
+}
+
+.leftCol {
+
+    background-color: hsl(179, 62%, 43%);
+  
+}
+.rightCol {
+
+    background-color: hsl(179, 62%, 55%);
+ 
+}
+.leftCol,
+.rightCol {
+  flex: 1; 
+  padding: 10px; 
+  
+}
+
+.subsciptionPrice {
+
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 8%;
+    margin-left: 2%;
+}
+
+.subsciptionPrice div {
+
+    display: flex;
+    flex-direction: row;
+  
+    
+}
+.priceText {
+
+    color: white;
+    font-size: 28px;
+ 
+}
+
+.priceDes {
+
+
+    padding-top: 5%;
+    padding-left: 2%;
+    color: hsl(220, 11%, 95%);
+    font-weight: 700;
+}
+
+.month {
+
+    color: rgb(218, 217, 217);
+    padding-top: 4px;
+}
+
+
+.subscription h1 {
+
+    font-size: 20px;
+    color: white;
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+.button {
+
+    background-color: hsl(71, 73%, 54%);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    display: block;
+    margin-top: 2%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 6px;;
+   
+}
+
+.button:hover {
+
+    background-color: hsl(71, 59%, 15%);
+    color: white;
+    transition: 0.8s;
+}
+.rightCol {
+
+   display: flex;
+   flex-direction: column;
+   gap: 14px;
+}
+.rightCol h1 {
+
+    font-size: 20px;
+    color: white;
+    padding-top: 5%;
+    padding-left: 2%;
+}
+.rightCol p {
+
+    display: flex;
+    flex-direction: column;
+    color: hsl(180, 39%, 94%);
+   
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .colloumns {
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .button {
+   margin-bottom: 12px;
+    }
+  }
